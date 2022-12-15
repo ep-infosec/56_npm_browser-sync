@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "es2022",
+    "target": "es5",
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "_dist",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "lib": [
+      "es2015",
+      "dom",
+      "dom.iterable"
+    ],
+    "types": []
+  },
+  "include": [
+    "./lib"
+  ],
+  "exclude": []
+}
